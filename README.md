@@ -42,4 +42,7 @@ Tembani Distributors – 076 476 4769
 
 # Mock Interview Video
 
-[<video src="MockInterview.mp4"</video>](https://github.com/user-attachments/assets/2886d2f7-df8f-475a-80c3-c79faaef2149)
+<video width="600" controls>
+  <source src="MockInterview.mp4" type="video/mp4">
+</video>
+
