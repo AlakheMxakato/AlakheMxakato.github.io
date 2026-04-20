@@ -17,22 +17,22 @@
 **Tembani Distributors| Jan. 2023** <br />
 IT Technician <br />
 * Assembled, configured and deployed custom desktop systems including hardware installation, OS setup and 
-driver configuration for the company
+driver configuration for the company. <br />
 * Installed and configured wireless routers and access points and I performed connectivity and performance 
-testing <br />
+testing. <br />
 
 ## PROJECTS
 **Study Group System | Oct. 2024**
 * I partnered with a team of 5 and developed a fully functional app using Java and real-time database retrieval 
-using MySQL <br />
+using MySQL. <br />
 
 **Consulting Management System | Aug. 2025**
 * Created a high-fidelity wireframe for a consulting management firm which provided a realistic, interactive and 
-polished simulation of the final product <br />
+polished simulation of the final product. <br />
 
 **Student Enrolment System | Nov. 2025**
 * I partnered with a group of 3 to create an enrolment app using Java and SQL to create the database that 
-stores student and administrator logins and enrolment information
+stores student and administrator logins and enrolment information.
 ## TECHNICAL SKILLS
 * **Languages:** Html, CSS, JavaScript, Java
 * **Software and Tools:** Figma, IntelliJ Idea, Git, GitHub, Apache NetBeans
