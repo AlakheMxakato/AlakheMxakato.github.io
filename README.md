@@ -40,7 +40,24 @@ stores student and administrator logins and enrolment information
 ## REFERENCES
 Tembani Distributors – 076 476 4769
 
-# Mock Interview Video
+## REFLECTION - CODING IN MARKDOWN
+**Situation:** I needed to create my first professional CV and was required to use Markdown instead word. <br />
+**Task:** My objective was to design a clear and professional CV using Markdown syntax. <br />
+**Action:** I learned about Markdown and used it to design my curriculam vitae. <br />
+**Result:** I made a clean, professional CV and improved my Markdown documentation skills. <br />
+
+# MOCK INTERVIEW VIDEO
 
 <video src="./MockInterview.mp4" controls width="600"></video>
 
+## REFLECTION - MOCK INTERVIEW
+**Situation:** I was required to do a mock interview video to practice answering common interview questions. <br />
+**Task:** My goal was to present myself professionally and communicate my skills clearly on camera. <br />
+**Action:** I prepared answers using the STAR method, recorded the video, and reviewed my body language and tone. <br />
+**Result:** I improved my confidence, communication skills, and readiness for real interviews. <br />
+
+## REFLECTION - GITHUB PAGES
+**Situation:** I created my first GitHub Pages site to showcase my projects and Curriculam Vitae. <br />
+**Task:** My goal was to set up a simple, professional website using GitHub Pages. <br />
+**Action:** I created a repository, added Markdown/HTML content, and configured GitHub Pages settings. <br />
+**Result:** I successfully published a live portfolio site and improved my web hosting and GitHub skills. <br />
