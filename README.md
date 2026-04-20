@@ -20,6 +20,7 @@ IT Technician <br />
 driver configuration for the company
 * Installed and configured wireless routers and access points and I performed connectivity and performance 
 testing <br />
+
 ## PROJECTS
 **Study Group System | Oct. 2024**
 * I partnered with a team of 5 and developed a fully functional app using Java and real-time database retrieval 
