@@ -15,7 +15,7 @@
   
 ## WORK EXPERIENCE
 **Tembani Distributors| Jan. 2023** <br />
-IT Technician
+IT Technician <br />
 * Assembled, configured and deployed custom desktop systems including hardware installation, OS setup and 
 driver configuration for the company
 * Installed and configured wireless routers and access points and I performed connectivity and performance 
