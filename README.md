@@ -171,7 +171,7 @@ All members share accountability for the final product. Roles guide responsibili
 | | | |
 | --- | --- | --- |
 | ![Landing screen with Vendor, Facility Manager and System Admin options](https://github.com/AlakheMxakato/AlakheMxakato.github.io/blob/main/LandingPage.png?raw=true) |
-| ![Vendor sign-up form](images/screenshot-2.png) | ![Vendor login form](images/screenshot-3.png) |
+| ![Vendor sign-up form](https://github.com/AlakheMxakato/AlakheMxakato.github.io/blob/main/Vendor%20SignUp.png?raw=true) | ![Vendor login form](images/screenshot-3.png) |
 | ![Vendor dashboard showing active storage, closing time banner and QR code button](images/screenshot-4.png) | ![Vendor account page](images/screenshot-5.png) | ![Storage package screen with billing cycle and payment method](images/screenshot-6.png) |
 
 ---
