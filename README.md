@@ -210,6 +210,8 @@ All members share accountability for the final product. Roles guide responsibili
 
 **Velocity:** Sprint 4 (5 points), Sprint 5 (5), Sprint 6 (5), Sprint 7 (8), Sprint 8 (9) and Sprint 9 (5), giving 37 points completed in total.
 
+![Trello Backlog](https://github.com/AlakheMxakato/AlakheMxakato.github.io/blob/main/TrelloBacklog.png?raw=true)
+
 ### Product Backlog Reflection
 
 **Situation:** Our team needed a clear list of everything required to build the SPS Coolers app.
