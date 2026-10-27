@@ -188,9 +188,9 @@ All members share accountability for the final product. Roles guide responsibili
 
 **Result:** We now have a clear Product Backlog and Sprint 1 backlog, and we learned to define priorities and acceptance criteria before development begins.
 
-# SPS Coolers: Agile Logbook Summary
+# Agile Logbook Summary
 
-**PFP362S Professional Practice** | 28 July 2026 to 25 September 2026
+ 28 July 2026 to 25 September 2026
 
 **Final product:** SPS Coolers mobile app, completed on 25 September 2026. [View the live app](https://sps-coolers-mobile-a-62e8.bolt.host/)
 
