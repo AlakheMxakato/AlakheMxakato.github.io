@@ -172,12 +172,13 @@ All members share accountability for the final product. Roles guide responsibili
 
 | | | |
 | --- | --- | --- |
-| ![Landing screen with Vendor, Facility Manager and System Admin options](images/screenshot-1.png) | ![Vendor sign-up form](images/screenshot-2.png) | ![Vendor login form](images/screenshot-3.png) |
+| ![Landing screen with Vendor, Facility Manager and System Admin options](images/screenshot-1.png) |
+| ![Vendor sign-up form](images/screenshot-2.png) | ![Vendor login form](images/screenshot-3.png) |
 | ![Vendor dashboard showing active storage, closing time banner and QR code button](images/screenshot-4.png) | ![Vendor account page](images/screenshot-5.png) | ![Storage package screen with billing cycle and payment method](images/screenshot-6.png) |
 
 ---
 
-## Reflection
+## REFLECTION
 
 **Situation:** SPS Coolers is a smart cold storage app that helps street vendors manage their bookings and access the facility.
 
@@ -186,3 +187,50 @@ All members share accountability for the final product. Roles guide responsibili
 **Action:** We wrote vendor-focused user stories with acceptance criteria, prioritised them using MoSCoW and split them into tasks.
 
 **Result:** We now have a clear Product Backlog and Sprint 1 backlog, and we learned to define priorities and acceptance criteria before development begins.
+
+# SPS Coolers: Agile Logbook Summary
+
+**PFP362S Professional Practice** | 28 July 2026 to 25 September 2026
+
+**Final product:** SPS Coolers mobile app, completed on 25 September 2026. [View the live app](https://sps-coolers-mobile-a-62e8.bolt.host/)
+
+---
+
+## Walkthrough
+
+| Question | Response |
+| --- | --- |
+| What do we need to do to advance this piece of work? | Hold regular stand-ups, follow the sprint backlog and review every task before it is marked as done, as agreed in our team charter. |
+| Is anyone working on anything that is not on the board? | No, everyone worked only on tasks from the Trello board and the product backlog. |
+| What did we need to finish as a team? | A working mobile app that lets street vendors book and manage cold storage, with all Must and Should user stories completed. |
+| Were there any bottlenecks or blockers to the flow of work? | Time management and testing delays at times, which we resolved by splitting tasks and testing earlier. |
+
+---
+
+## Logbook
+
+Each week was one sprint. Stand-ups were held three times a week in person or on WhatsApp, and every sprint ended with a short review and retrospective.
+
+| Sprint and dates | What did we complete since the last stand-up? | What do we plan to complete next? | Impediments, risks or problems |
+| --- | --- | --- | --- |
+| **Sprint 1**<br>28 to 31 July | We completed the wireframes, opened the GitHub repository, coded and debugged the front end and uploaded it to GitHub Pages. | Present the front end and get approval from our lecturer. | The web application did not work after upload because the file was not visible to the command prompt. We corrected the file path and linked it again. |
+| **Sprint 2**<br>4 to 7 August | We completed the front end, finished the brand guide presentation and updated the Trello board. | Start the solution architecture. | Keeping the presentation in one theme. Sesona reviewed all slides for consistency. |
+| **Sprint 3**<br>11 to 14 August | We completed the solution architecture and database design, and moved the user stories into a prioritised product backlog using MoSCoW. We decided to build a mobile app because vendors mainly use phones. | Build the sign-up and login features. | Choosing a development approach with limited time. We agreed to use Bolt to build faster and focus on testing. |
+| **Sprint 4**<br>18 to 21 August | We completed vendor sign-up and login with a 4-digit PIN, required fields and rejection of duplicate usernames (Must stories). | Build the vendor dashboard with the storage card and closing time notice. | Duplicate usernames were not showing an error message. We added validation and retested. |
+| **Sprint 5**<br>25 to 28 August | We completed the dashboard showing crate count, unit number, start date and the 18:00 closing time banner. | Build the QR code feature for bookings. | The dashboard showed outdated bookings. We changed the query to return only the active booking. |
+| **Sprint 6**<br>1 to 4 September | We completed the unique QR code for each confirmed booking and the facility manager scan screen that displays booking details and the assigned unit. | Build the modify storage and transport assistance features. | Some QR codes were hard to scan on small screens. We increased the code size and contrast. |
+| **Sprint 7**<br>8 to 11 September | We completed the modify booking feature and the Bakkie transport request with date, time, location and status. | Build the payment options and account page. | Slow progress on testing. We shared test accounts so each member tested a different feature. |
+| **Sprint 8**<br>15 to 18 September | We completed the choice of fortnightly (R50 per crate) or monthly (R90 per crate) billing, payment method selection, payment history, the account page and the facility manager and admin views. | Carry out full testing and fix remaining bugs. | Payments are simulated because a real payment gateway was outside the project scope. We stated this clearly in our documentation. |
+| **Sprint 9**<br>22 to 25 September | We completed full testing of all user stories against their acceptance criteria, fixed final bugs and published the finished app on 25 September. | Prepare the final presentation and submission. | Heritage Day on 24 September reduced available time, so we worked on 22, 23 and 25 September. No other impediments. |
+
+---
+
+## REFLECTION
+
+**Situation:** Our team needed to turn the SPS Coolers business idea into a working app for street vendors.
+
+**Task:** We planned, built and tested the app over nine one-week sprints.
+
+**Action:** We followed our team charter, used a prioritised backlog and reviewed each task before marking it done.
+
+**Result:** We completed the app on 25 September, and learned that early testing and clear acceptance criteria reduce delays.
