@@ -192,7 +192,6 @@ All members share accountability for the final product. Roles guide responsibili
 
 ## Product Backlog
 
-The product backlog is the prioritised list of all work required to deliver the SPS Coolers app. Items are ranked using MoSCoW, estimated in story points and refined at each sprint retrospective.
 
 | Rank | ID | Backlog item | Priority | Points | Sprint | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -226,7 +225,6 @@ The product backlog is the prioritised list of all work required to deliver the 
 
 ## Sprint Backlogs
 
-A sprint backlog is the team's actionable plan for one sprint. It is created by the developers, lists the tasks needed to reach the sprint goal and is updated during the sprint. The six sprints below cover the full development of the app, from the first feature sprint to completion on 25 September 2026.
 
 **Definition of Done (all sprints):** The task is reviewed by another member, meets the acceptance criteria and is pushed to the shared repository.
 
