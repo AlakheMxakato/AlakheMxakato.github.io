@@ -153,8 +153,6 @@ All members share accountability for the final product. Roles guide responsibili
 
 ---
 
-## Product Backlog
-
 | # | User story | Acceptance criteria | Tasks | Priority |
 | --- | --- | --- | --- | --- |
 | 1 | As a new vendor, I want to create an account with my name, trading spot, username, phone and 4-digit PIN, so that I can start using cold storage. | All fields are required.<br>The PIN is exactly 4 digits.<br>Duplicate usernames are rejected. | Build the sign-up form.<br>Add validation.<br>Save to the `profiles` table. | Must |
@@ -188,7 +186,183 @@ All members share accountability for the final product. Roles guide responsibili
 
 **Result:** We now have a clear Product Backlog and Sprint 1 backlog, and we learned to define priorities and acceptance criteria before development begins.
 
-# Agile Logbook Summary
+# Product and Sprint Backlog
+
+---
+
+## Product Backlog
+
+The product backlog is the prioritised list of all work required to deliver the SPS Coolers app. Items are ranked using MoSCoW, estimated in story points and refined at each sprint retrospective.
+
+| Rank | ID | Backlog item | Priority | Points | Sprint | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | PB-01 | As a new vendor, I want to create an account with my name, trading spot, username, phone and 4-digit PIN, so that I can start using cold storage. | Must | 3 | 4 | Done |
+| 2 | PB-02 | As a vendor, I want to log in with my username and PIN, so that I can see my storage. | Must | 2 | 4 | Done |
+| 3 | PB-03 | As a vendor, I want to see how many crates I have stored and in which unit, so that I always know what is in the cooler. | Must | 3 | 5 | Done |
+| 4 | PB-04 | As a vendor, I want to access a QR code linked to my booking, so that the facility manager can identify my booking and direct me to my storage unit. | Must | 5 | 6 | Done |
+| 5 | PB-05 | Test all stories against their acceptance criteria and fix bugs. | Must | 5 | 9 | Done |
+| 6 | PB-06 | As a vendor, I want to see the hub closing time, so that I drop off my crates before 18:00. | Should | 2 | 5 | Done |
+| 7 | PB-07 | As a vendor, I want to modify my storage booking, so that I only pay for the space I need. | Should | 3 | 7 | Done |
+| 8 | PB-08 | As a vendor, I want to book transport assistance (a facility Bakkie), so that I can collect my stock from the supplier. | Should | 5 | 7 | Done |
+| 9 | PB-09 | As a vendor, I want to choose fortnightly or monthly payments, so that I can match my payments to when I earn money. | Should | 3 | 8 | Done |
+| 10 | PB-10 | As a vendor, I want to select a payment method and view my payment history, so that I can pay easily and track my invoices. | Should | 3 | 8 | Done |
+| 11 | PB-11 | As an administrator, I want an admin view, so that I can oversee hub operations. | Could | 3 | 8 | Done |
+| 12 | PB-12 | Integrate a real payment gateway. | Won't (this release) | 8 | None | Not started |
+| 13 | PB-13 | Add push notifications for booking and closing time reminders. | Won't (this release) | 5 | None | Not started |
+
+**Velocity:** Sprint 4 (5 points), Sprint 5 (5), Sprint 6 (5), Sprint 7 (8), Sprint 8 (9) and Sprint 9 (5), giving 37 points completed in total.
+
+### Product Backlog Reflection
+
+**Situation:** Our team needed a clear list of everything required to build the SPS Coolers app.
+
+**Task:** We created and prioritised a product backlog from our user stories.
+
+**Action:** We ranked items using MoSCoW, estimated story points and refined the list at each sprint retrospective.
+
+**Result:** We delivered 37 points of work and learned that early prioritisation keeps the team focused on what vendors need most.
+
+---
+
+## Sprint Backlogs
+
+A sprint backlog is the team's actionable plan for one sprint. It is created by the developers, lists the tasks needed to reach the sprint goal and is updated during the sprint. The six sprints below cover the full development of the app, from the first feature sprint to completion on 25 September 2026.
+
+**Definition of Done (all sprints):** The task is reviewed by another member, meets the acceptance criteria and is pushed to the shared repository.
+
+| Sprint | Dates | Sprint goal | Items | Points | Planned hours |
+| --- | --- | --- | --- | --- | --- |
+| 4 | 18 to 21 August | Vendors can create an account and log in securely. | PB-01, PB-02 | 5 | 22 |
+| 5 | 25 to 28 August | Vendors can see their active storage and the closing time. | PB-03, PB-06 | 5 | 15 |
+| 6 | 1 to 4 September | Each booking has a QR code the facility manager can scan. | PB-04 | 5 | 16 |
+| 7 | 8 to 11 September | Vendors can modify their booking and request transport. | PB-07, PB-08 | 8 | 20 |
+| 8 | 15 to 18 September | Vendors can choose how and when to pay, and admins have an overview. | PB-09, PB-10, PB-11 | 9 | 25 |
+| 9 | 22 to 25 September | The app is fully tested, fixed and published. | PB-05 | 5 | 21 |
+
+---
+
+### Sprint 4 (18 to 21 August 2026)
+
+**Sprint goal:** Vendors can create an account and log in securely using a username and 4-digit PIN.
+
+| Task | Item | Owner | Hours | Status |
+| --- | --- | --- | --- | --- |
+| Build the sign-up form | PB-01 | Sesona | 4 | Done |
+| Add validation for required fields and the 4-digit PIN | PB-01 | Alakhe | 3 | Done |
+| Reject duplicate usernames | PB-01 | Alakhe | 2 | Done |
+| Save new vendors to the `profiles` table | PB-01 | Sesona | 2 | Done |
+| Build the login form | PB-02 | Sesona | 3 | Done |
+| Check credentials against stored details | PB-02 | Alakhe | 2 | Done |
+| Handle errors and write clear error messages | PB-02 | Noxolo | 2 | Done |
+| Test both items against acceptance criteria and complete peer review | PB-01, PB-02 | Noxolo | 3 | Done |
+| Update the Trello board and logbook | All | Noxolo | 1 | Done |
+
+**Review and retrospective:** Both items were completed. Duplicate username errors were not visible at first, so we agreed to test error messages earlier in future sprints.
+
+---
+
+### Sprint 5 (25 to 28 August 2026)
+
+**Sprint goal:** Vendors can see their active storage and the hub closing time on the dashboard.
+
+| Task | Item | Owner | Hours | Status |
+| --- | --- | --- | --- | --- |
+| Design the storage card | PB-03 | Sesona | 3 | Done |
+| Query the active booking only | PB-03 | Alakhe | 3 | Done |
+| Display crate count, unit number and start date | PB-03 | Sesona | 2 | Done |
+| Add the closing time to the hub data | PB-06 | Alakhe | 1 | Done |
+| Build the highlighted 18:00 closing time banner | PB-06 | Sesona | 2 | Done |
+| Test both items against acceptance criteria and complete peer review | PB-03, PB-06 | Noxolo | 3 | Done |
+| Update the Trello board and logbook | All | Noxolo | 1 | Done |
+
+**Review and retrospective:** The dashboard first showed outdated bookings. We changed the query to return the active booking only. In future we will test with more than one booking per vendor.
+
+---
+
+### Sprint 6 (1 to 4 September 2026)
+
+**Sprint goal:** Each confirmed booking has a unique QR code that the facility manager can scan to see the booking and assigned unit.
+
+| Task | Item | Owner | Hours | Status |
+| --- | --- | --- | --- | --- |
+| Generate a unique QR code linked to each booking | PB-04 | Alakhe | 4 | Done |
+| Display the QR code on the vendor dashboard | PB-04 | Sesona | 3 | Done |
+| Build the facility manager scan screen showing booking details and unit | PB-04 | Alakhe | 4 | Done |
+| Increase QR code size and contrast after small screen tests | PB-04 | Sesona | 1 | Done |
+| Test scanning on different phones and complete peer review | PB-04 | Noxolo | 3 | Done |
+| Update the Trello board and logbook | All | Noxolo | 1 | Done |
+
+**Review and retrospective:** Some QR codes were hard to scan on small screens, which we fixed by increasing size and contrast. We will test on a wider range of devices earlier.
+
+---
+
+### Sprint 7 (8 to 11 September 2026)
+
+**Sprint goal:** Vendors can change their crate count and request transport assistance for stock collection.
+
+| Task | Item | Owner | Hours | Status |
+| --- | --- | --- | --- | --- |
+| Build the modify booking form | PB-07 | Sesona | 3 | Done |
+| Update the booking with the new crate count and confirm | PB-07 | Alakhe | 3 | Done |
+| Build the transport request form with date, time and location | PB-08 | Sesona | 4 | Done |
+| Save the request and show its status | PB-08 | Alakhe | 4 | Done |
+| Write confirmation messages for both features | PB-07, PB-08 | Noxolo | 2 | Done |
+| Test both items using shared test accounts and complete peer review | PB-07, PB-08 | Noxolo | 3 | Done |
+| Update the Trello board and logbook | All | Noxolo | 1 | Done |
+
+**Review and retrospective:** Testing was slow at first. Sharing test accounts so that each member tested a different feature solved this, and we will keep this practice.
+
+---
+
+### Sprint 8 (15 to 18 September 2026)
+
+**Sprint goal:** Vendors can choose how and when to pay, and administrators have an overview of hub operations.
+
+| Task | Item | Owner | Hours | Status |
+| --- | --- | --- | --- | --- |
+| Add the fortnightly or monthly option to the booking form | PB-09 | Sesona | 3 | Done |
+| Calculate the amount due (R50 per crate fortnightly, R90 per crate monthly) and the next due date | PB-09 | Alakhe | 4 | Done |
+| Save the billing choice to the booking | PB-09 | Alakhe | 2 | Done |
+| Build the payment method selection (Capitec Pay, Instant EFT, card) | PB-10 | Sesona | 3 | Done |
+| Build the payment history screen | PB-10 | Sesona | 3 | Done |
+| Build the admin view | PB-11 | Alakhe | 4 | Done |
+| Document that payments are simulated for the prototype | PB-10 | Noxolo | 2 | Done |
+| Test all three items against acceptance criteria and complete peer review | PB-09, PB-10, PB-11 | Noxolo | 3 | Done |
+| Update the Trello board and logbook | All | Noxolo | 1 | Done |
+
+**Review and retrospective:** This was our largest sprint at 9 points. A real payment gateway was outside the project scope, so we simulated payments and stated this clearly in our documentation.
+
+---
+
+### Sprint 9 (22 to 25 September 2026)
+
+**Sprint goal:** The app is fully tested against all acceptance criteria, free of known bugs and published.
+
+| Task | Item | Owner | Hours | Status |
+| --- | --- | --- | --- | --- |
+| Test every user story against its acceptance criteria | PB-05 | Noxolo | 5 | Done |
+| Fix the final bugs found during testing | PB-05 | Alakhe | 4 | Done |
+| Check final screens for design and brand consistency | PB-05 | Sesona | 3 | Done |
+| Publish the final version of the app | PB-05 | Alakhe | 2 | Done |
+| Prepare the final presentation | PB-05 | Alakhe | 3 | Done |
+| Compile the documentation for submission | PB-05 | Noxolo | 3 | Done |
+| Update the Trello board and logbook | All | Noxolo | 1 | Done |
+
+**Review and retrospective:** Heritage Day on 24 September reduced available time, so we worked on 22, 23 and 25 September. The app was completed and published on 25 September 2026 with all committed items done.
+
+---
+
+### Sprint Backlog Reflection
+
+**Situation:** Our team needed to turn the product backlog into manageable weekly work.
+
+**Task:** We planned each sprint with a clear goal, tasks, owners and time estimates.
+
+**Action:** We tracked tasks on Trello, checked work against our Definition of Done and held a retrospective after every sprint.
+
+**Result:** We completed every sprint goal and finished the app on 25 September, and learned that small tasks and regular reviews reduce delays.
+
+# Agile Logbook
 
  28 July 2026 to 25 September 2026
 
